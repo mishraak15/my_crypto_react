@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(135deg,purple,rgb(165, 19, 165),violet);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.App form{
+  margin: 1em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  }
+
+.App form input{
+  background: none;
+  border: none;
+  border: 2px solid grey;
+  border-radius: 6px;
+  padding: 6px;
+  outline: none;
+  font-size: 15px;
+  text-transform: capitalize;
+  width: 20%;
+  background-color: white;
+
+}
+
+.App form button{
+  background: white;
+  border: 2px solid grey;
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 15px;
+}
+
+.App form button:hover{
+  cursor:pointer;
+  background-color: rgb(233, 233, 233);
+}
+
+.card-container{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

@@ -1,0 +1,80 @@
+.cards-wrapper{
+    margin: 1em 0;
+    width: 100%;
+    text-align: center;
+}
+
+.cards-wrapper h4{
+    color: white;
+     font-size: 2em;
+}
+
+.card{
+    border: 2px solid red;
+    width: 50%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 9px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.official_link{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.official_link:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+.label{
+    font-size: 17px;
+}
+
+.subhead{
+    gap: 1.5em;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+
+.desc{
+    font-size: 14.5px;
+    margin: 6px 0;
+    text-align: left;
+    color: rgb(85, 85, 85);
+}
+
+.col-g{
+    color: rgb(79, 91, 104);
+    font-weight: bold;
+}
+
+
+.market_data{
+    justify-content: space-evenly;
+    margin: 1em;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.single_market_data{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.top_lebel{
+    font-weight: bold;
+}
+
+.top_market_data{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.top_container{
+    justify-content: space-evenly;
+    margin: 1em 0;
+    text-align: left;
+}

@@ -1,0 +1,70 @@
+.horizontalbar{
+    margin: 1em auto;
+    padding: 1em;
+    /* background-color: limegreen; */
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.horizontalbar .current_price div{
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.horizontalbar .highestin24h div,.horizontalbar .lowestin24h div{
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.horizontalbar  h4{
+    margin: 0 6px;
+}
+.horizontalbar h4 span{
+    color: darkslategray;
+}
+
+.completedata{
+    width: 100%;
+}
+
+.top50{
+    text-align: center;
+    color: darkcyan;
+}
+
+ .head{
+    position: relative;
+}
+
+.head .rank{
+    font-size: 13px;
+    position: absolute;
+    top: -7px;
+    left: 5px;
+    background: #afaeae;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.head h1 sup{
+    font-size: 16px;
+}
+
+.lastUpdated{
+    display: flex;
+    justify-content: end;
+    font-size: 13px;
+}
+
